@@ -8,4 +8,8 @@ class Array
     end
     return (array)
   end
+
+  def two_sum
+   return [] if self.length <= 1
+  end
 end
